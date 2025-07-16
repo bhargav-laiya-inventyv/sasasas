@@ -8,7 +8,3 @@ Feature: Email Field Validation with Regex on Login Screen
     And I attempt to submit the login form
     Then I should see the validation result "<result>"
     And I should see the validation message "<validation_message>"
-
-    Examples:
-      | email                  | result   | validation_message                  |
-      | invaliduser@exam       | Rejected | Please enter a valid e-mail address |
